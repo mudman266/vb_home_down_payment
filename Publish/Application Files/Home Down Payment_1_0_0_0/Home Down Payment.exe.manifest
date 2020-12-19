@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Home Down Payment.exe" version="1.0.0.0" publicKeyToken="ee53238f52193155" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Home Down Payment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Home Down Payment.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Home Down Payment.exe" size="114064">
+      <assemblyIdentity name="Home Down Payment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2NxMPFuiIIl6uCOYpqUpgmkrmSWWA0I81tLryB7gzVg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Home Down Payment.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DT1\josh" issuerKeyHash="0fcf949e03680301ea66aed772202a0b16d47116" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xEpYFsR0jdKHGQqga6HRt7CEy2ykAz1rGUcNWlqoIV0=</DigestValue></Reference></SignedInfo><SignatureValue>Mkb1G1fnR0nuHKbPhx1C8DZ+7xnD67KcmxVYaGeELhQDyWLm8Wyqqg4r9xQTHDzQ5RXqtEKahQ+5OgMVdWSnHi382GebEQUVahHhyEv1gbvqdOkXilcGRoL0g4LNWYfheDA2YH3lhpzqZc4erjxUjy5WmqoY6E0FPNxg2SfNqko=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>m0Lm0a5ZvZnCdgIoQ8d4p+wwsGy/RBFuq9nHyMXOJnnhLlZ+2NWoKSmL0Nk2jgr9qHDeiWe4deM0u8Yk/CmqfxnK7o8RhRsL97sCMpwzf8RciQHpAM2+cpZJSgK67QACsWdgbjIImrTl3jPPs3qsv3SmsM0yLj4Dsk+ZgrdWnC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5d21a85a5a0d47196b3d03a46ccb84b0b7d1a16ba00a1987d28d74c416584ac4" Description="" Url=""><as:assemblyIdentity name="Home Down Payment.exe" version="1.0.0.0" publicKeyToken="ee53238f52193155" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DT1\josh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E9ly98lEK+XBk2NE9sStnyj9QiP6h2Re8ZwIotF9F9Y=</DigestValue></Reference></SignedInfo><SignatureValue>Mv0/m/N/EGJF/TDQyZoo/7HguQz8i2SE33ed/ZEqCFttfGijxQA7jLFIKtd+E9+cg0Ab6X1495y5TvGLK2vPEWCsyr26F+ifw6VM8NzLl+9m6bQVfuuh52u7uOJDLcUxAEcdnoF6tV5g6ysPL7MX4CO0NZwx9UurJxv9JU4lmKc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>m0Lm0a5ZvZnCdgIoQ8d4p+wwsGy/RBFuq9nHyMXOJnnhLlZ+2NWoKSmL0Nk2jgr9qHDeiWe4deM0u8Yk/CmqfxnK7o8RhRsL97sCMpwzf8RciQHpAM2+cpZJSgK67QACsWdgbjIImrTl3jPPs3qsv3SmsM0yLj4Dsk+ZgrdWnC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQbv9A+qUULJFBR6ypopTEJzANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhAARABUADEAXABqAG8AcwBoMB4XDTIwMTEyMzAxMjMwNFoXDTIxMTEyMzA3MjMwNFowGzEZMBcGA1UEAx4QAEQAVAAxAFwAagBvAHMAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAm0Lm0a5ZvZnCdgIoQ8d4p+wwsGy/RBFuq9nHyMXOJnnhLlZ+2NWoKSmL0Nk2jgr9qHDeiWe4deM0u8Yk/CmqfxnK7o8RhRsL97sCMpwzf8RciQHpAM2+cpZJSgK67QACsWdgbjIImrTl3jPPs3qsv3SmsM0yLj4Dsk+ZgrdWnC0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAbSYCH5Ppxhco0kwFTP+v5DCIXY1ULOUMgjWfVpP1BsrRJ0vFoIhDDvWAK5oWuvaTawE0fj4UFw7fcKxk+NB8ytB/AJ3CiAM9v5Eyfu5Oly4POqa7sRwez16dNiKoz5xEPV9BrypdMfC0tZ2BJ9EP+BCzUb/yUoSxiydA2Uu8Whg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
